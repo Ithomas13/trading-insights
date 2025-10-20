@@ -1,0 +1,11 @@
+[project]
+name = "trading-insights"
+version = "0.1.0"
+requires-python = ">=3.9"
+dependencies = [
+  "pandas", "numpy", "yfinance", "statsmodels", "matplotlib",
+  "streamlit", "scikit-learn", "pyyaml"
+]
+
+[project.scripts]
+ti = "trading_insights.cli:main"
